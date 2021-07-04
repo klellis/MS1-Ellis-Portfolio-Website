@@ -18,7 +18,7 @@ body {
 hr {
    width: 100%;
    border-radius: 25px;
-   border: 5px solid #2E284A;
+   border: 2px solid #2E284A;
 }
 
 /* HERO SECTION */
@@ -84,7 +84,7 @@ a::after {
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
-    background: #2C2749;
+    background: #2E284A;
     height: 100vh
 }
 .services-container .services-card {
@@ -294,9 +294,6 @@ footer {
     align-items: center;
    
 }
-
-
-
 .form-fields {
     width: 80%;
     margin: 10px;
@@ -308,6 +305,35 @@ textarea {
     height: 250px !important;
 }
 
+
+/* Services Page */
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #3c3a3a;
+   padding-left: 40px;
+     
+}
+#webdev {
+   background-color: #7C7EEC;  
+}
+#marketing {
+   background-color: #55D3B9;
+}
+
+#socialmedia {
+    background-color: #C26A98;
+
+}
+
+
+
+.content a {
+    text-decoration: none;
+}
 
 
 /* MEDIA QUERIES */
@@ -324,4 +350,15 @@ textarea {
     .services-container {
         height: 1100px;
     }
+}
+
+@media screen and (max-width:560px){
+    .content h2, p {
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: -20px;
+        
+    }
+    
 }
