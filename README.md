@@ -42,4 +42,12 @@ on my skills.
 ### Wireframes
 
 - Home page
-  -![Desktop](assets/images/MS1-Ellis-Portfolio-Homepage-Wireframe-Desktop.png)
+  [Desktop](assets/images/MS1-Ellis-Portfolio-Homepage-Wireframe-Desktop.png)
+  [Tablet/Mobile](assets/images/MS1-Ellis-Portfolio-Homepage-Wireframe-Tablet-Mobile.png)
+
+- Services 
+  [Desktop](MS1-Ellis-Portfolio-Services-Wireframe-Desktop.png)
+  [Tablet/Mobile](MS1-Ellis-Portfolio-Services-Wireframe-Tablet-Mobile.png)
+
+- Contact
+   [Desktop](MS1-Ellis-Portfolio-Contact-Wireframe-Desktop.png)
