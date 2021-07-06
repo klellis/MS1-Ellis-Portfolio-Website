@@ -279,30 +279,40 @@ footer {
 
 /* CONTACT */
 
-
-
 .form-container {
     display: flex;
     flex-direction: column;
-    width: 60vw;
-    height: 80vh;
-    border-radius: 10px;
-    background-color: linear-gradient(to right, #767ff0, #de75a6);
-    margin: 50px auto;
-    padding: 0 0 20px 0;
+    width: 100vw;
+    height: 70vh;
+    padding-bottom: 10px;
     justify-content: center;
     align-items: center;
-   
+    background-image: url("https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    color: #fafafa;
 }
 .form-fields {
-    width: 80%;
-    margin: 10px;
+    width: 60vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 8%;
+    border: none;
+    border-bottom: 1px solid #3c3a3a;
+    background-image: url("https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    color: white;
+    
     
 }
 
 textarea {
-    height: 250px !important;
+    /*height: 250px */
 }
 
 
@@ -314,8 +324,10 @@ textarea {
     text-align: center;
     flex-direction: column;
     color: #3c3a3a;
-   padding-left: 40px;
-     
+   padding-left: 40px;    
+}
+.content i {
+    margin-top: 50px;
 }
 #webdev {
    background-color: #7C7EEC;  
@@ -323,14 +335,9 @@ textarea {
 #marketing {
    background-color: #55D3B9;
 }
-
 #socialmedia {
     background-color: #C26A98;
-
 }
-
-
-
 .content a {
     text-decoration: none;
 }
