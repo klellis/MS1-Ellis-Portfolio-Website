@@ -191,7 +191,6 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D ); /* W3C, IE 10+/ Edge, 
 }
 .about-img-container::after {
         content: '';
-        position: relative;
         top:0;
         left:0;
         width:100%;
@@ -242,14 +241,29 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D ); /* W3C, IE 10+/ Edge, 
      display: inline;
  }
 
-
 /* CONTACT */
 
+
+
+
+
+.banner-img {
+    display: inline-block;
+    width: 100vw;
+    height: 25vh;
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 50px;
+    color: #fafafa;
+    text-align: center;
+    padding-top:70px;
+}
 .form-container {
     display: inline-block;
     flex-direction: column;
-    width: 45vw;
-    margin-left: 100px;
+    width: 55vw;
+    margin-left: 80px;
     height: 70vh;
     padding-bottom: 10px;
     /*  background-image: url("https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
@@ -279,19 +293,25 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D ); /* W3C, IE 10+/ Edge, 
 .contact-details {
     display: inline-block;
     flex-direction: column;
-    margin-left: 100px;
-    width: 30vw;
+    margin-left: 90px;
+    width: 25vw;
     height: 60%;
     float: left;
-    
-    
-    
+   
 }
 
-
+iframe {
+    width: 30vw;
+    height: 30vh;
+}
 
 textarea {
     /*height: 250px */
+}
+
+.contact-submit {
+ width: 20vw;
+ height: 5vh;
 }
 
 
@@ -324,8 +344,13 @@ textarea {
 
 /* Footer */
 footer {
+    width: 100%;
     height: 100px; 
     display: inline-block; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 .social-links {
     text-align: center;
@@ -373,6 +398,8 @@ footer {
     .services-container {
         height: 1100px;
     }
+
+   
 }
 
 @media screen and (max-width:560px){
@@ -384,4 +411,26 @@ footer {
         
     }
     
+}
+
+@media screen and (max-width:900px){
+    .form-container, .contact-details  {
+        width: 100vw;
+        margin-left: 10px;
+        margin-right: 50px;
+        text-align: center;  
+    }
+    iframe {
+        width: 100vw;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-fields {
+        width: 90vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 }
