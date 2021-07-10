@@ -51,3 +51,12 @@ on my skills.
 
 - Contact
    [Desktop](MS1-Ellis-Portfolio-Contact-Wireframe-Desktop.png)
+
+
+   ## Bugs 
+
+- The Interactive cards on the Home Page index.html were succesful in what I wanted to achieve 
+however when it came to testing I used a number of different browsers and i have found that on Safari 
+the cards are not appearing in the way I was hoping (during build I was using Google Chrome)
+The boxes around the shapes seem more prominent on Safari and should not be visible. 
+*Have not yet found fix*
