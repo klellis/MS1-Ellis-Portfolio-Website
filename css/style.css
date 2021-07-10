@@ -32,7 +32,7 @@ hr {
     margin: 0 auto;
     height:800px;
     background-image: url("https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-attachment: fixed;
+    background-attachment: fixed; /* Parallax */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
@@ -230,7 +230,7 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D ); /* W3C, IE 10+/ Edge, 
         margin-top: 50px;
         margin-left: 20px;
     }
- #icons {
+ .icons {
      justify-content: center;
      align-items: center;
      position: relative;
@@ -428,6 +428,7 @@ footer {
         margin-top: 50px;
         align-items: center;
         justify-content: center;
+        margin-left: -15px;
     }
 
     .form-fields {
@@ -435,5 +436,6 @@ footer {
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin-left: -25px;
     }
 }
